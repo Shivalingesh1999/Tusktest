@@ -25,6 +25,7 @@ csvfile.close()
 
 
 #Groupby code using csv reader
+#This conerting without pandas
 #df2 = df1.groupby('ETtiTraceUlParUe_cRnti').size().groupby(level=0).max().reset_index(name='counts')
 
 def group_by_fun(file_name, column_name)
