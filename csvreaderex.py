@@ -42,4 +42,7 @@ def group_by_fun(file_name, column_name)
                     patient_dict[key] += 1
         res = (sorted(patient_dict, key=lambda k: patient_dict[k], reverse=True))
         
-    return res    
+    return res   
+   
+   
+   #Changed modified now
